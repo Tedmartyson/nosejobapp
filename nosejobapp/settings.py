@@ -26,7 +26,8 @@ SECRET_KEY = "django-insecure-sts861f!w__@#9htl82e6dc)p!+&8pq&vlnbolf3nro5$xpowk
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "nosejobapp-env.eba-veuhmjep.us-east-1.elasticbeanstalk.com"
+    "nosejobapp-env.eba-veuhmjep.us-east-1.elasticbeanstalk.com",
+    "0.0.0.0"
 ]
 
 
@@ -39,6 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "bot"
 ]
 
 MIDDLEWARE = [
